@@ -2,7 +2,7 @@
   "name": "cse341-node",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
@@ -20,7 +20,10 @@
   },
   "homepage": "https://github.com/fvalto/CSE341-Node#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongodb": "^7.1.0",
+    "mongoose": "^9.2.4"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
